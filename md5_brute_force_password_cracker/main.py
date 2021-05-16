@@ -27,4 +27,5 @@ while password != test_password:
     break
 
 print("Password -> " + "\033[92m" + word + "\033[0m")
-print("Time of execution: " + str(round(time.time() - start_time, 3)) + " seconds")
+print("Time of execution: " +
+      "\033[92m" + str(round(time.time() - start_time, 3)) + "\033[0m" + " seconds")
